@@ -31,7 +31,8 @@ class DialogOperator(bpy.types.Operator):
 		actions = self.to_remove_actions.split(',')
 		removed = []
 		not_removed = []
-
+        
+       
 		for ac in actions: 
 
 			if(ac.startswith(' ')):
